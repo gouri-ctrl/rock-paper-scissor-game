@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+.square {
+    border: 1px solid #ddd; /* adjust carefully so squares fit */
+    box-sizing: border-box;
+    flex: 1 0 auto; /* allow Flexbox to size squares */
+    background-color: white;
+}
